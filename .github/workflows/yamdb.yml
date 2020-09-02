@@ -2,6 +2,8 @@
 
 name: YamDB-app workflow
 
+let g:pymode_lint_ignore = "E501,W"
+
 on: [push]
 
 jobs:
@@ -22,7 +24,6 @@ jobs:
         pip install -r requirements.txt
 
     - name: Lint with flake8
-      let g:pymode_lint_ignore = "E501,W"
       run: flake8 .
 
     - name: Test with pytest
