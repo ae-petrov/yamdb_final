@@ -1,4 +1,4 @@
 # yamdb_final
 yamdb_final
 
-![example workflow name](https://github.com/actions/hello-world/workflows/Greet%20Everyone/badge.svg)
+![YamDB-app workflow](https://github.com/ae-petrov/yamdb_final/workflows/YamDB-app%20workflow/badge.svg)
