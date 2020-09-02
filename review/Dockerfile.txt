@@ -1,5 +1,5 @@
 # создать образ на основе базового слоя python (там будет ОС и интерпретатор Python)
-FROM python:3.8-alpine
+FROM python:3.8
 
 # выбрать или создать директорию /code
 WORKDIR /code
