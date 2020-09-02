@@ -25,7 +25,7 @@ jobs:
       run: flake8 . --ignore=E1,E23,W503,E501 --exclude=./tests/settings_qa.py
 
     - name: Test with pytest
-      run: pytest tests.py
+      run: pytest tests/
 
   push_to_docker_hub:
     name: Push Docker image to Docker Hub
